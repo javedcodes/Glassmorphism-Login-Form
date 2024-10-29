@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- HTML Document Declaration for defining HTML5 structure -->
+<!-- Coding By JV Codes - www.jvcodes.com -->
+<html lang="en">
+<head>
+  <!-- Character encoding set to UTF-8 for universal characters -->
+  <meta charset="UTF-8">
+  <!-- Meta tag for responsive design, adjusts layout based on device width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Page title that appears on the browser tab -->
+  <title>Glassmorphism Login Form | JV Codes</title>
+  <!-- Link to external stylesheet where CSS for the form is defined -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Wrapper div to contain and style the login form with a glassmorphism effect -->
+  <div class="wrapper">
+    <!-- Form element with no action (leads to "#" when submitted) -->
+    <form action="#">
+      <!-- Form title for user identification -->
+      <h2>Login</h2>
+      
+      <!-- Input field for email address -->
+      <div class="input-field">
+        <input type="text" required>
+        <label>Enter your email</label>
+      </div>
+
+      <!-- Input field for password -->
+      <div class="input-field">
+        <input type="password" required>
+        <label>Enter your password</label>
+      </div>
+
+      <!-- Section for "Remember me" checkbox and "Forgot password" link -->
+      <div class="forget">
+        <label for="remember">
+          <input type="checkbox" id="remember">
+          <p>Remember me</p>
+        </label>
+        <a href="#">Forgot password?</a>
+      </div>
+
+      <!-- Submit button for form submission -->
+      <button type="submit">Log In</button>
+
+      <!-- Registration link section for users who do not have an account -->
+      <div class="register">
+        <p>Don't have an account? <a href="#">Register</a></p>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
